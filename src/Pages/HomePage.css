@@ -1,0 +1,323 @@
+/** body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  @font-face {
+    font-family: "MuseoSlab";
+    src: url("@/assets/fonts/exljbis-MuseoSlab,oft");
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  
+  svg {
+    fill: #0d77cb;
+  }
+  :root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+  }
+  
+  :root {
+    --Abc-primary-red: #da291c;
+    --Abc-primary-red-hover: #ae2c1d;
+    --Abc-white: #ffffff;
+    --Abc-black: #000000;
+    --Abc-body-bg: #f8f8f8;
+    --Abc-primary-blue: #0075c9;
+    --Abc-primary-near-black: #27251f;
+    --Abc-primary-dark-gray: #707070;
+    --Abc-primary-light-gray: #d7d8d7;
+    --Abc-primary-off-white: #f8f8f8;
+    --Abc-primary-yellow: #eaaa00;
+  
+    --Abc-primary-btn-blue-main: #0075c9;
+    --Abc-primary-btn-blue-hover: #0d77cb;
+    --Abc-primary-btn-blue-click: #27251f;
+  
+    --Abc-secondary-btn-red-main: #da291c;
+    --Abc-secondary-btn-red-hover: #be170a;
+    --Abc-secondary-btn-red-click: #27251f;
+  
+    --Abc-text-link: #0075c9;
+    --Abc-text-link-hover: #0d77cb;
+  
+    --Abc-navigation-link: #27251f;
+    --Abc-navigation-link-hover: #27251f;
+    --Abc-see-more-link: #da291c;
+    --Abc-paragraph--link: #707070;
+  
+     custom padding and margin
+    --Abc-space-0: 0px;
+    --Abc-space-50: 2px;
+    --Abc-space-100: 4px;
+    --Abc-space-200: 8px;
+    --Abc-space-300: 12px;
+    --Abc-space-400: 16px;
+    --Abc-space-500: 20px;
+    --Abc-space-600: 24px;
+    --Abc-space-700: 28px;
+    --Abc-space-800: 32px;
+    --Abc-space-900: 36px;
+    --Abc-space-1000: 40px;
+    --Abc-space-1100: 44px;
+    --Abc-space-1200: 48px;
+  } **/
+  
+.form-container{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+.header{
+    width: 100%;
+    /* height: auto;
+    align-items: center; */
+
+
+}
+
+.main-heading{
+    text-align: center;
+    font-weight: 600;
+    color: blue;
+    text-decoration: underline;
+}
+.logo1{
+     width: 70px;
+    height: auto;  
+    
+}
+    
+.logo2{
+
+    width:90px;
+     height:auto;  
+    
+}
+
+.heading-1{
+    color: #ff0000;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+a1{
+    margin-left: 100px;
+}
+a2{
+    margin-left: 100px;
+}
+h2{
+    text-align: center;
+    color:red;
+    text-decoration: underline;
+}
+.mt-5{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+.card-img{
+
+    
+     height:8rem;
+     
+}
+
+
+
+.card-title{
+
+   
+    
+    background-color: #1f14a3;
+}
+.card-control{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+
+}
+ .card-btn{
+
+    float: right;
+    font-size: small;
+}
+.card-bg{
+    border-radius: 4px;
+    margin: 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.blinking-txt{
+
+    text-align: center;
+    padding-top: 18px;
+    color: red;
+    animation: blinkingText 2s infinite;
+
+
+}   
+
+.forgetPassword {
+
+    margin-top: 20px;
+}
+.modal-title{
+    background-color: #1f14a3;
+    color: #fff;
+
+    
+    
+}
+.login-title{
+
+    margin-left: 30px;
+    background-color: #1f14a3;
+    padding:12px;
+   
+}
+.label-control{
+    float: left;
+
+
+}
+
+
+.card-title{
+    color: white !important;
+    padding: 8px;
+
+}
+
+.btn-theme{
+    background-color: #4ECDC4;
+}
+p2{
+    color: green;
+    font-weight: bold;
+    
+
+    animation: marquee 10s linear infinite;
+
+}
+span{
+    color: red;
+
+
+}
+
+
+p3{
+    color: red;
+    animation: binkingText 2s infinite;
+    text-align: center;
+}
+
+.modal-head{
+
+    background-color: #1f14a3;
+    color: #fff;
+}
+.modal-head-btn-close{
+
+    color: #fff;
+    background-color: #fff;
+}
+
+ul, li{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+
+
+}
+.modal-txt{
+    color: blue;
+    font-weight: 700;
+}
+
+.modal-list{
+    font-size: 13px;
+    font-weight: 520;
+    line-height: 18.5714px;
+
+}
+.form-heading{
+
+    text-align: center;
+    background-color: #1f14a3;
+    padding: 8px;
+    color: #fff;
+    border-radius:8px ;
+}
+.login-head{
+
+    
+    text-align: center;
+   
+}
+.login-tutorial{
+    color: red;
+}
+.Sign-btn{
+    align-items: center;
+    margin-left: 140px;
+
+}
+
+.modal-head .close {
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    color: #ff0000; /* Change the color of the icon */
+    font-size: 24px; /* Adjust size of the icon */
+    padding: 0; /* Remove padding */
+    
+    transition: color 0.3s; /* Smooth color transition */
+    background-color: white!important;
+}
+
+.modal-head .close:hover {
+    color: #ff9999; /* Change color on hover */
+}
+ li{
+
+    margin-left: 40px;
+    line-height:20px;
+ }
+ .custom-close-button {
+    color: red; /* Change color */
+    font-size: 20px; /* Change size */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

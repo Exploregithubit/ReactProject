@@ -1,0 +1,37 @@
+Navv.css
+
+/* Custom CSS for Navigation */
+
+.navbar {
+  background-color: #1f14a3; /* Use custom color variable */
+  position: fixed;
+  
+  max-width: 100%;
+}
+
+#nav-brand {
+  color: #fff; /* Use custom color variable */
+}
+
+.nav-link {
+  color: #fff !important; /* Use custom color variable */
+}
+
+.nav-toggle{
+  border: 2px solid#000!important;
+  color:10px red!important ;
+  background-color: #fff!important; 
+  size: 10px !important;
+  line-height: 10px!important;
+  font-size: medium!important;
+}
+
+
+@media (max-width: 767px){
+  
+.navbar-toggler-icon
+{border-color: #fff;}
+
+
+}
+

@@ -1,4 +1,4 @@
-body {
+/* /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,143 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+/* 
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
+@font-face {
+  font-family: "MuseoSlab";
+  src: url("@/assets/fonts/exljbis-MuseoSlab,oft");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+svg {
+  fill: #0d77cb;
+}
+:root {
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+}
+
+:root {
+  --Abc-primary-red: #da291c;
+  --Abc-primary-red-hover: #ae2c1d;
+  --Abc-white: #ffffff;
+  --Abc-black: #000000;
+  --Abc-body-bg: #f8f8f8;
+  --Abc-primary-blue: #0075c9;
+  --Abc-primary-near-black: #27251f;
+  --Abc-primary-dark-gray: #707070;
+  --Abc-primary-light-gray: #d7d8d7;
+  --Abc-primary-off-white: #f8f8f8;
+  --Abc-primary-yellow: #eaaa00;
+
+  --Abc-primary-btn-blue-main: #0075c9;
+  --Abc-primary-btn-blue-hover: #0d77cb;
+  --Abc-primary-btn-blue-click: #27251f;
+
+  --Abc-secondary-btn-red-main: #da291c;
+  --Abc-secondary-btn-red-hover: #be170a;
+  --Abc-secondary-btn-red-click: #27251f;
+
+  --Abc-text-link: #0075c9;
+  --Abc-text-link-hover: #0d77cb;
+
+  --Abc-navigation-link: #27251f;
+  --Abc-navigation-link-hover: #27251f;
+  --Abc-see-more-link: #da291c;
+  --Abc-paragraph--link: #707070;
+
+   custom padding and margin
+  --Abc-space-0: 0px;
+  --Abc-space-50: 2px;
+  --Abc-space-100: 4px;
+  --Abc-space-200: 8px;
+  --Abc-space-300: 12px;
+  --Abc-space-400: 16px;
+  --Abc-space-500: 20px;
+  --Abc-space-600: 24px;
+  --Abc-space-700: 28px;
+  --Abc-space-800: 32px;
+  --Abc-space-900: 36px;
+  --Abc-space-1000: 40px;
+  --Abc-space-1100: 44px;
+  --Abc-space-1200: 48px;
+}
+ */
+
+
+ /* Navv.css */
+
+
+.navbar {
+  background-color: hsl(239, 79%, 42%); /* Light background color */
+  
+  
+  
+}
+
+#nav-brand{
+  
+  
+  color: #fff;
+
+}
+.nav-link{
+  
+  
+  color: #fff !important;
+  
+}
+
+.footer {
+  background-color: #1f14a3;
+  padding: 20px;
+  text-align: center;
+  
+  bottom: 0;
+  width: 100%;
+  color: aliceblue;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+}
+
+

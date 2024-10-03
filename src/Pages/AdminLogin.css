@@ -1,0 +1,62 @@
+ .login-heading{
+
+
+  background-color: #1f14a3;
+  color: #fff;
+  height: 50px;
+  border-radius: 5px;
+
+}
+#Admin-login-tabs {
+  border-bottom: 1px solid #f0eded; 
+  max-height: 100px;
+  background-color: #7c7f82;
+  
+  
+  
+}
+
+
+#Admin-login-tabs .nav-link {
+  border: 3px solid transparent; 
+  border-radius: 0.25rem; 
+  font-weight: 800; 
+  color: #0d0e0f; 
+  background-color: #7c7f82; 
+  transition: background-color 0.3s ease, border-color 0.3s ease; 
+ 
+ 
+}
+
+
+#Admin-login-tabs .nav-link.active {
+  background-color: #1f14a3; 
+  color: #0056b3; 
+  border-color: #090909; 
+  border-bottom-color: transparent; 
+  border-radius: 7px;
+  margin-right: 50px;
+
+}
+
+
+
+
+
+/* Define a class to hide elements on mobile screens */
+.hide-on-mobile {
+  display: block; /* Default display for larger screens */
+}
+
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none; /* Hide on screens smaller than 768px */
+  }
+}
+
+.head {
+
+  text-decoration: none;
+  
+
+}
